@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+header{
+    background-color: silver;
+}
+
+header h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-top: 0%;
+    padding-top: 29px;
+    padding-bottom: 29px;    
+}
+
+section{
+    margin-top: 40px;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    background-color: silver;
+    padding: 2.9em;
+    padding-left: 7%;
+    display: block;
+}
+
+section form{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section form h1{
+    font-size: 2.4em;
+    margin-bottom: 18px;
+}
+
+section form div label{
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#my-form input[type="text"]{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #000;
+}
+
+.bg-dark{
+    background-color: #000;
+    color: #fff;
+}
+
+.error{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    min-width: 100%;
+    font-size: 25px;
+    text-align: center;
+    border: rgb(97, 95, 95);
+    border: 6px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
